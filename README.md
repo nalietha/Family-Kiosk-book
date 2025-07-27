@@ -81,4 +81,4 @@
 
 ## ✅ Summary
 
-This version builds a robust, interactive, memory-rich family tree experience—blending relationships, photos, stor
+This version builds a robust, interactive, memory-rich family tree experience—blending relationships, photos, stories, and fun into a touchscreen-friendly kiosk app.

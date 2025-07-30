@@ -9,7 +9,7 @@ class FamilyTreeKioskApp(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("Family Tree Kiosk")
-        self.geometry("800x600")
+        self.geometry("1200x800")
 
         # Set up tab control
         self.notebook = ttk.Notebook(self)
@@ -81,10 +81,10 @@ class AdminCategoryFrame(ttk.Frame):
         # Search Class
         self.search_manager = SearchManager(
             people=self.store_people.get_all(),
-            photos=self.store_photos.get_all(),
-            pets=self.store_pets.get_all(),
-            stories=self.store_stories.get_all(),
-            quizzes=self.store_quizzes.get_all()
+            photos=self.store_photo.get_all(),
+            pets=self.store_pet.get_all(),
+            stories=self.store_story.get_all(),
+            quizzes=self.store_quiz.get_all()
         )
 
 

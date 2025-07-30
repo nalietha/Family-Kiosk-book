@@ -1,0 +1,20 @@
+{
+  "id": "nathan_lietha",
+  "name": "Nathan Lietha",
+  "aliases": ["Nate", "N.J."],
+  "gender": "Trans Man",
+  "birthYear": 1992,
+  "deathYear": null,
+  "photo": "portraits/nathan_lietha.jpg",
+  "relations": {
+    "parents": ["john_lietha", "unknown_mother"],
+    "stepParents": ["anna_lietha"],
+    "children": ["sophie_lietha"],
+    "adoptedChildren": ["jayden_sky"],
+    "spouse": "elise_chen",
+    "exSpouses": ["taylor_morgan"]
+  },
+  "pets": ["buster"],
+  "stories": ["story_nathan_bike"],
+  "tags": ["developer", "loves-coffee"]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "buster",
+    "name": "Buster",
+    "species": "Dog",
+    "birthYear": 2017,
+    "photo": "pets/buster.jpg",
+    "ownerId": "john_smith"
+  }
+]

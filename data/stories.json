@@ -1,0 +1,9 @@
+[
+  {
+    "id": "fishing_trip",
+    "title": "The Great Fishing Trip",
+    "text": "In 1989, John took the family to Lake Erie...",
+    "personId": "john_smith",
+    "source": "Anna"
+  }
+]

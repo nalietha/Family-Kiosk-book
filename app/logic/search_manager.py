@@ -6,7 +6,7 @@ class SearchManager:
     Can be pointed at in-memory lists or loaded data structures.
     """
 
-    def __init__(self, people=None, pets=None, stories=None, photos=None):
+    def __init__(self, people=None, pets=None, stories=None, photos=None, quizzes=None):
         """
         people, pets, stories, photos: List of dicts (from JSON or elsewhere)
         """
@@ -14,6 +14,7 @@ class SearchManager:
         self.pets = pets if pets is not None else []
         self.stories = stories if stories is not None else []
         self.photos = photos if photos is not None else []
+        self.quizzes = quizzes if quizzes is not None else []
 
     # --- Person search ---
     def find_people_by_name(self, name, exact=False):
@@ -133,3 +134,10 @@ class SearchManager:
 
     def get_stories_by_date_range(self, start_date, end_date):
         return self.get_items_by_date_range(self.stories, start_date, end_date, date_key="date")
+    
+    # TODO: Add quizzes
+
+    # --- Quiz Search ---
+    # Quizzes are only searchable by tag or name. 
+    # Quizzes should not be searchable by people names
+    
